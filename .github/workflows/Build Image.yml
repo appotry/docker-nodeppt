@@ -43,7 +43,7 @@ jobs:
       - name: Set Version
         id: set-version
         run: |
-          echo "version=18" >> $GITHUB_ENV
+          echo "version=20" >> $GITHUB_ENV
           
       # Build and push
       - name: Build dockerfile
