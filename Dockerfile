@@ -1,4 +1,4 @@
-FROM node:20-slim
+FROM node:26-slim
 LABEL maintainer="andycrusoe@gmail.com" version="1.0.0"
 
 RUN npm i nodeppt -g
